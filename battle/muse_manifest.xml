@@ -1,0 +1,70 @@
+<manifest alg="2" build="30" opt="true" iceEnabled="true" exportTarget="other" resolutions="1x,2x" timestamp="1406104637865">
+  <folder name="css">
+    <file name="site_global.css" crc="3954395221"/>
+    <file name="index.css" crc="236241504" ref="index"/>
+  </folder>
+  <folder name="assets">
+    <folder name="timeline">
+      <folder name="edge_includes">
+        <file name="edge.4.0.0.min.js" crc="4231652741" mt="1406104385000"/>
+        <file name="jquery-2.0.3.min.js" crc="155013199" mt="1406104385000"/>
+      </folder>
+      <folder name="images">
+        <file name="portrait1.jpg" crc="459268161" mt="1406104385000"/>
+        <file name="portrait2.jpg" crc="521566060" mt="1406104385000"/>
+        <file name="Poster.png" crc="4202725079" mt="1406104385000"/>
+      </folder>
+      <file name="timeline_edge.js" crc="4166724600" mt="1406104385000"/>
+      <file name="timeline_edgeActions.js" crc="57399243" mt="1406104385000"/>
+      <file name="timeline_edgePreload.js" crc="68748989" mt="1406104385000"/>
+      <file name="timeline.html" crc="4019874741" mt="1406104385000"/>
+    </folder>
+    <folder name="ship">
+      <folder name="edge_includes">
+        <file name="edge.4.0.0.min.js" crc="4231652741" mt="1406102325000"/>
+        <file name="jquery-2.0.3.min.js" crc="155013199" mt="1406102325000"/>
+      </folder>
+      <folder name="images">
+        <file name="bg_ship.png" crc="80249916" mt="1406102325000"/>
+        <file name="Poster.png" crc="4059894492" mt="1406102325000"/>
+      </folder>
+      <file name="ship_edge.js" crc="329244168" mt="1406102325000"/>
+      <file name="ship_edgeActions.js" crc="205406723" mt="1406102325000"/>
+      <file name="ship_edgePreload.js" crc="434224848" mt="1406102325000"/>
+      <file name="ship.html" crc="4147760636" mt="1406102325000"/>
+    </folder>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="4245411419" ref="index"/>
+    <file name="museutils.js" crc="353204447" ref="index"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="323834883" ref="index"/>
+    <file name="jquery.scrolleffects.js" crc="4083300337" ref="index"/>
+    <file name="jquery.watch.js" crc="3923049248" ref="index"/>
+    <file name="pie.js" crc="3827607177" ref="index"/>
+  </folder>
+  <folder name="images">
+    <file name="bg.jpg" crc="3857262905" ref="index"/>
+    <file name="bg_2x.jpg" crc="3814718142" ref="index"/>
+    <file name="hero.jpg" crc="3323449" ref="index"/>
+    <file name="logo.png" crc="3827588544" ref="index"/>
+    <file name="logo_2x.png" crc="135753421" ref="index"/>
+    <file name="sub_title.png" crc="4028984426" ref="index"/>
+    <file name="sub_title_2x.png" crc="3960916612" ref="index"/>
+    <file name="quote.png" crc="495548072" ref="index"/>
+    <file name="icon2-1.png" crc="160293791" ref="index"/>
+    <file name="icon2-1_2x.png" crc="3777362975" ref="index"/>
+    <file name="icon2-2.png" crc="229063740" ref="index"/>
+    <file name="icon2-2_2x.png" crc="431036648" ref="index"/>
+    <file name="icon3.png" crc="378553169" ref="index"/>
+    <file name="icon3_2x.png" crc="4073035049" ref="index"/>
+    <file name="photo7-ieu268-fr.png" crc="532035174" ref="index"/>
+    <file name="photo7.jpg" crc="64821319" ref="index"/>
+    <file name="photo7-ieu268-fr2.png" crc="156271760" ref="index"/>
+    <file name="photo7_2x.jpg" crc="445175273" ref="index"/>
+    <file name="icon3-1.png" crc="198475473" ref="index"/>
+    <file name="icon3-1_2x.png" crc="3930443400" ref="index"/>
+    <file name="icon3-2.png" crc="4003871302" ref="index"/>
+    <file name="icon3-2_2x.png" crc="330241885" ref="index"/>
+  </folder>
+  <file name="index.html" crc="4226714517" mt="1406104400209" redirect="true"/>
+</manifest>
