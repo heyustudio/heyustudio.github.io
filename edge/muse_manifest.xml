@@ -1,0 +1,60 @@
+<manifest alg="2" build="30" opt="true" iceEnabled="true" exportTarget="other" resolutions="1x" timestamp="1406172591071">
+  <folder name="css">
+    <file name="site_global.css" crc="4089354296"/>
+    <file name="index.css" crc="4028411065" ref="index"/>
+    <file name="responsive.css" crc="4072496039" ref="responsive"/>
+  </folder>
+  <folder name="assets">
+    <folder name="keyframe_animation_finished">
+      <folder name="edge_includes">
+        <file name="edge.4.0.0.min.js" crc="4231652741" mt="1406039641000"/>
+        <file name="jquery-2.0.3.min.js" crc="155013199" mt="1406039641000"/>
+      </folder>
+      <folder name="images">
+        <file name="D.png" crc="1471450" mt="1406039641000"/>
+        <file name="E.png" crc="4277640118" mt="1406039641000"/>
+        <file name="G.png" crc="3909899982" mt="1406039641000"/>
+        <file name="Poster.png" crc="3770370985" mt="1406039641000"/>
+        <file name="shadow.png" crc="4155029555" mt="1406039641000"/>
+      </folder>
+      <file name="keyframe_animation_finished_edge.js" crc="4218688686" mt="1406039641000"/>
+      <file name="keyframe_animation_finished_edgeActions.js" crc="4128545696" mt="1406039641000"/>
+      <file name="keyframe_animation_finished_edgePreload.js" crc="202849252" mt="1406039641000"/>
+      <file name="keyframe_animation_finished.html" crc="309251838" mt="1406039641000"/>
+    </folder>
+    <folder name="this_is_responsive">
+      <folder name="edge_includes">
+        <file name="edge.4.0.0.min.js" crc="4231652741" mt="1406039260000"/>
+        <file name="jquery-2.0.3.min.js" crc="155013199" mt="1406039260000"/>
+      </folder>
+      <folder name="images">
+        <file name="birdsprite.png" crc="4001746381" mt="1406039260000"/>
+        <file name="cloud.png" crc="4154536473" mt="1406039260000"/>
+        <file name="cloud2.png" crc="13667400" mt="1406039260000"/>
+        <file name="cloud3.png" crc="3770030909" mt="1406039260000"/>
+        <file name="Poster.png" crc="382586845" mt="1406039260000"/>
+      </folder>
+      <file name="this_is_responsive_edge.js" crc="29492248" mt="1406039260000"/>
+      <file name="this_is_responsive_edgeActions.js" crc="254616118" mt="1406039260000"/>
+      <file name="this_is_responsive_edgePreload.js" crc="3969128624" mt="1406039260000"/>
+      <file name="this_is_responsive.html" crc="4201973860" mt="1406039260000"/>
+    </folder>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="4245411419" ref="phone>index:phone>slides:index:responsive"/>
+    <file name="museutils.js" crc="353204447" ref="phone>index:phone>slides:index:responsive"/>
+    <file name="jquery.watch.js" crc="3923049248" ref="phone>index:phone>slides:index:responsive"/>
+    <file name="jquery.scrolleffects.js" crc="4083300337" ref="phone>slides:index"/>
+    <file name="museredirect.js" crc="4054502145" ref="index"/>
+  </folder>
+  <folder name="phone">
+    <folder name="css">
+      <file name="index.css" crc="3850732870" ref="phone>index"/>
+      <file name="slides.css" crc="3877933398" ref="phone>slides"/>
+    </folder>
+    <file name="index.html" crc="1804960" mt="1406127023899" redirect="true"/>
+    <file name="slides.html" crc="4116534406" mt="1406128123542" redirect="true"/>
+  </folder>
+  <file name="index.html" crc="24743457" mt="1406127023765" redirect="true"/>
+  <file name="responsive.html" crc="4231997324" mt="1406127023772" redirect="true"/>
+</manifest>
