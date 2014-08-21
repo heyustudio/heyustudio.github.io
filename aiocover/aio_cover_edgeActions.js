@@ -2,12 +2,14 @@
 (function($,Edge,compId){var Composition=Edge.Composition,Symbol=Edge.Symbol;
 //Edge symbol: 'stage'
 (function(symbolName){Symbol.bindElementAction(compId,symbolName,"${_news_1}","mouseenter",function(sym,e){});
-//Edge binding endSymbol.bindElementAction(compId, symbolName, "${_news_1}", "mouseleave", function(sym, e) {
-});
+//Edge binding end
+Symbol.bindElementAction(compId,symbolName,"${_news_1}","mouseleave",function(sym,e){});
 //Edge binding end
 Symbol.bindElementAction(compId,symbolName,"${_more}","mouseenter",function(sym,e){sym.play(0);});
-//Edge binding endSymbol.bindElementAction(compId, symbolName, "${_more}", "mouseleave", function(sym, e) {
-sym.playReverse();});
+//Edge binding end
+Symbol.bindElementAction(compId,symbolName,"${_more}","mouseleave",function(sym,e){sym.playReverse();});
+//Edge binding end
+Symbol.bindElementAction(compId,symbolName,"${_more}","click",function(sym,e){sym.play();});
 //Edge binding end
 })("stage");
 //Edge symbol end:'stage'
