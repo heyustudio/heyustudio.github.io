@@ -19,7 +19,7 @@
 
 //Edge symbol: 'parallax'
 (function(symbolName){Symbol.bindSymbolAction(compId,symbolName,"creationComplete",function(sym,e){sym.stop();window.ondeviceorientation=function(event){var delta=Math.round(event.beta);switch(window.orientation){case 0:delta=Math.round(event.gamma);break;case 180:delta=-Math.round(event.gamma);break;}
-var position=15000+(delta*150);position=Math.floor(position);sym.stop(position);}});
+var position=15000+(delta*250);position=Math.floor(position);sym.stop(position);}});
 //Edge binding end
 })("parallax");
 //Edge symbol end:'parallax'
