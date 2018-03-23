@@ -1,7 +1,7 @@
 # Import file "topic for demo"
 s = Framer.Importer.load("imported/topic%20for%20demo@2x", scale: 1)
 
-# Timeline Page
+### Timeline Page
 timelineAnimation = new VideoLayer
 	video: "videos/topicItemAnimation.mp4"
 	width: 320
@@ -10,6 +10,7 @@ timelineAnimation = new VideoLayer
 timelineAnimation.placeBehind(s.topicItem)
 timelineAnimation.player.autoplay = true
 timelineAnimation.player.loop = true
+###
 
 # Topic Page
 PKAnimation = new VideoLayer
