@@ -1,0 +1,201 @@
+window.__imported__ = window.__imported__ || {};
+window.__imported__["topic garry@2x/layers.json.js"] = [
+	{
+		"objectId": "417E0CD5-8750-40C6-BE00-6F0C2C896489",
+		"kind": "artboard",
+		"name": "topic_garry_1",
+		"originalName": "topic-garry-1",
+		"maskFrame": null,
+		"layerFrame": {
+			"x": 394,
+			"y": -134,
+			"width": 320,
+			"height": 1188
+		},
+		"visible": true,
+		"metadata": {},
+		"backgroundColor": "rgba(255, 255, 255, 1)",
+		"children": [
+			{
+				"objectId": "584D27E9-6314-4AA0-8FF6-E73A71E7579A",
+				"kind": "group",
+				"name": "navBar",
+				"originalName": "navBar*",
+				"maskFrame": null,
+				"layerFrame": {
+					"x": 0,
+					"y": 0,
+					"width": 320,
+					"height": 64
+				},
+				"visible": true,
+				"metadata": {
+					"opacity": 1
+				},
+				"image": {
+					"path": "images/Layer-navBar-ntg0rdi3.png",
+					"frame": {
+						"x": 0,
+						"y": 0,
+						"width": 320,
+						"height": 64
+					}
+				},
+				"children": []
+			},
+			{
+				"objectId": "F3E6258E-2F04-4411-9C92-E1BDD1E7D04B",
+				"kind": "group",
+				"name": "createBtn",
+				"originalName": "createBtn*",
+				"maskFrame": null,
+				"layerFrame": {
+					"x": 0,
+					"y": 1148,
+					"width": 320,
+					"height": 40
+				},
+				"visible": true,
+				"metadata": {
+					"opacity": 1
+				},
+				"image": {
+					"path": "images/Layer-createBtn-rjnfnji1.png",
+					"frame": {
+						"x": 0,
+						"y": 1148,
+						"width": 320,
+						"height": 40
+					}
+				},
+				"children": []
+			},
+			{
+				"objectId": "777C2D5C-E812-4F1B-A92D-35EECA08D9DE",
+				"kind": "group",
+				"name": "feed",
+				"originalName": "feed*",
+				"maskFrame": null,
+				"layerFrame": {
+					"x": 0,
+					"y": 73,
+					"width": 320,
+					"height": 1116
+				},
+				"visible": true,
+				"metadata": {
+					"opacity": 1
+				},
+				"image": {
+					"path": "images/Layer-feed-nzc3qzje.png",
+					"frame": {
+						"x": 0,
+						"y": 73,
+						"width": 320,
+						"height": 1116
+					}
+				},
+				"children": []
+			}
+		]
+	},
+	{
+		"objectId": "5039F7BB-ECEC-41D5-8706-F957910E9D75",
+		"kind": "artboard",
+		"name": "topic_garry_2",
+		"originalName": "topic-garry-2",
+		"maskFrame": null,
+		"layerFrame": {
+			"x": 814,
+			"y": -134,
+			"width": 320,
+			"height": 1114
+		},
+		"visible": true,
+		"metadata": {},
+		"backgroundColor": "rgba(255, 255, 255, 1)",
+		"children": [
+			{
+				"objectId": "C2259E94-0885-4CF6-81D9-3ABEA747235A",
+				"kind": "group",
+				"name": "navBar2",
+				"originalName": "navBar2*",
+				"maskFrame": null,
+				"layerFrame": {
+					"x": 0,
+					"y": 0,
+					"width": 320,
+					"height": 64
+				},
+				"visible": true,
+				"metadata": {
+					"opacity": 1
+				},
+				"image": {
+					"path": "images/Layer-navBar2-qziyntlf.png",
+					"frame": {
+						"x": 0,
+						"y": 0,
+						"width": 320,
+						"height": 64
+					}
+				},
+				"children": []
+			},
+			{
+				"objectId": "034B3250-75C3-440C-8C60-4E6CCFAB9631",
+				"kind": "group",
+				"name": "createBtn2",
+				"originalName": "createBtn2*",
+				"maskFrame": null,
+				"layerFrame": {
+					"x": 0,
+					"y": 1074,
+					"width": 320,
+					"height": 40
+				},
+				"visible": true,
+				"metadata": {
+					"opacity": 1
+				},
+				"image": {
+					"path": "images/Layer-createBtn2-mdm0qjmy.png",
+					"frame": {
+						"x": 0,
+						"y": 1074,
+						"width": 320,
+						"height": 40
+					}
+				},
+				"children": []
+			},
+			{
+				"objectId": "E10DEB69-7136-4EB4-94E4-9BF3815FDADC",
+				"kind": "group",
+				"name": "feed2",
+				"originalName": "feed2*",
+				"maskFrame": null,
+				"layerFrame": {
+					"x": 0,
+					"y": 73,
+					"width": 320,
+					"height": 1041
+				},
+				"visible": true,
+				"metadata": {
+					"opacity": 1
+				},
+				"image": {
+					"path": "images/Layer-feed2-rtewrevc.png",
+					"frame": {
+						"x": 0,
+						"y": 73,
+						"width": 320,
+						"height": 1041
+					}
+				},
+				"children": []
+			}
+		]
+	}
+]
