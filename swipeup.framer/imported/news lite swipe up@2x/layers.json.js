@@ -280,7 +280,7 @@ window.__imported__["news lite swipe up@2x/layers.json.js"] = [
 					"x": -1,
 					"y": 555,
 					"width": 377,
-					"height": 112
+					"height": 212
 				},
 				"visible": true,
 				"metadata": {
@@ -297,7 +297,7 @@ window.__imported__["news lite swipe up@2x/layers.json.js"] = [
 							"x": -1,
 							"y": 616,
 							"width": 377,
-							"height": 51
+							"height": 151
 						},
 						"visible": true,
 						"metadata": {
@@ -309,7 +309,7 @@ window.__imported__["news lite swipe up@2x/layers.json.js"] = [
 								"x": -1,
 								"y": 616,
 								"width": 377,
-								"height": 51
+								"height": 151
 							}
 						},
 						"children": []
