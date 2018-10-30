@@ -284,7 +284,7 @@ window.__imported__["news lite swipe up@2x/layers.json.js"] = [
 					"x": -1,
 					"y": 555,
 					"width": 377,
-					"height": 112
+					"height": 212
 				},
 				"visible": true,
 				"metadata": {
@@ -301,7 +301,7 @@ window.__imported__["news lite swipe up@2x/layers.json.js"] = [
 							"x": -1,
 							"y": 616,
 							"width": 377,
-							"height": 51
+							"height": 151
 						},
 						"visible": true,
 						"metadata": {
@@ -313,7 +313,7 @@ window.__imported__["news lite swipe up@2x/layers.json.js"] = [
 								"x": -1,
 								"y": 616,
 								"width": 377,
-								"height": 51
+								"height": 151
 							}
 						},
 						"children": []
@@ -597,9 +597,9 @@ window.__imported__["news lite swipe up@2x/layers.json.js"] = [
 	}
 ]
 if (DeviceComponent) {DeviceComponent.Devices["iphone-6-silver"].deviceImageJP2 = false};
-if (window.Framer) {window.Framer.Defaults.DeviceView = {"deviceScale":"fit","selectedHand":"","deviceType":"apple-iphone-8-space-gray","contentScale":1,"hideBezel":true,"orientation":0};
+if (window.Framer) {window.Framer.Defaults.DeviceView = {"deviceScale":-1,"selectedHand":"","deviceType":"apple-iphone-8-space-gray","contentScale":1,"hideBezel":true,"orientation":0};
 }
-if (window.Framer) {window.Framer.Defaults.DeviceComponent = {"deviceScale":"fit","selectedHand":"","deviceType":"apple-iphone-8-space-gray","contentScale":1,"hideBezel":true,"orientation":0};
+if (window.Framer) {window.Framer.Defaults.DeviceComponent = {"deviceScale":-1,"selectedHand":"","deviceType":"apple-iphone-8-space-gray","contentScale":1,"hideBezel":true,"orientation":0};
 }
 window.FramerStudioInfo = {"deviceImagesUrl":"\/_server\/resources\/DeviceImages","documentTitle":"swipeleft.framer"};
 
