@@ -41,8 +41,11 @@ cardScroll.placeBehind(s.cardNavBar)
 for card in cards
 	cardScroll.addPage(card, "bottom")
 
-###
-s.cardOverlay.visible =	 
+# page flows
+flow = new FlowComponent
+flow.showNext(s.feed, scroll:false)
+
+s.cardOverlay.visible =	 false
 s.colorOverlay.opacity = 0
 s.cardNavBar.opacity = 0
 cardScroll.states.hidden = 
@@ -73,27 +76,6 @@ s.cardNavBar.onClick ->
 cardScroll.on Events.StateSwitchEnd, (from, to) ->
 	if to == "hidden"
 		s.cardOverlay.visible =	 s.colorOverlay.visible = false
-###
-
-cardTransition = (nav, layerA, layerB, overlay) ->
-	transition =
-		layerA:
-			show:
-				blur: 0
-			hide:
-				blur: 1
-		layerB:
-			show:
-				scale: 1
-				opacity: 1
-			hide:
-				scale: 0.8
-				opacity: 0
-		overlay:
-			show:
-				opacity: 0.6
-			hide:
-				opacity: 0
 
 
 # card interactions
@@ -146,7 +128,6 @@ for like in likes
 		showLike.start()
 
 
-
 # article page
 articleScroll = ScrollComponent.wrap(s.articleScroll)
 articleScroll.scrollHorizontal = false
@@ -155,23 +136,24 @@ articleScroll.scrollHorizontal = false
 commentScroll = ScrollComponent.wrap(s.commentScroll)
 commentScroll.scrollHorizontal = false
 
-
-# page flows
-flow = new FlowComponent
-flow.showNext(s.feed, scroll:false)
-s.feedContent.onClick ->
-	flow.transition(cardScroll, cardTransition)
-	flow.header = s.cardNavBar
-
-
-
-for content in contents
-	content.onClick ->
-		flow.showOverlayCenter(s.article, scroll:false)
+s.content1.onClick ->
+	flow.showOverlayCenter(s.article, scroll:false)
+s.content2.onClick ->
+	flow.showOverlayCenter(s.video, scroll:false)
+s.content3.onClick ->
+	flow.showOverlayCenter(s.shortVideo, scroll:false)
+s.content4.onClick ->
+	flow.showOverlayCenter(s.article, scroll:false)
 
 s.articleBack.onClick ->
 	flow.showPrevious()
 s.article.onSwipeRight ->
 	flow.showPrevious()
-
-
+s.contentNavTransparent.onClick ->
+	flow.showPrevious()
+s.video.onSwipeRight ->
+	flow.showPrevious()
+s.contentNavTransparent1.onClick ->
+	flow.showPrevious()
+s.shortVideo.onSwipeRight ->
+	flow.showPrevious()

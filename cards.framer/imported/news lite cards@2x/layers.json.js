@@ -309,97 +309,6 @@ window.__imported__["news lite cards@2x/layers.json.js"] = [
 		"backgroundColor": "rgba(232.860938988133, 234.18952586453764, 236.84669961734693, 1)",
 		"children": [
 			{
-				"objectId": "099963C2-D088-41DC-8F4D-875ACFB7FFCE",
-				"kind": "group",
-				"name": "colorOverlay",
-				"originalName": "colorOverlay",
-				"maskFrame": null,
-				"layerFrame": {
-					"x": 0,
-					"y": 0,
-					"width": 375,
-					"height": 2382
-				},
-				"visible": false,
-				"metadata": {
-					"opacity": 1
-				},
-				"image": {
-					"path": "images/Layer-colorOverlay-mdk5otyz.png",
-					"frame": {
-						"x": 0,
-						"y": 0,
-						"width": 375,
-						"height": 2382
-					}
-				},
-				"children": []
-			},
-			{
-				"objectId": "7705E0FD-7556-4264-AB20-D2D257269071",
-				"kind": "group",
-				"name": "feedScroll",
-				"originalName": "feedScroll",
-				"maskFrame": null,
-				"layerFrame": {
-					"x": 0,
-					"y": 0,
-					"width": 375,
-					"height": 2491
-				},
-				"visible": true,
-				"metadata": {
-					"opacity": 1
-				},
-				"children": [
-					{
-						"objectId": "1E14E2DB-4BDE-4B3E-A430-E31E765F4E7F",
-						"kind": "group",
-						"name": "feedContent",
-						"originalName": "feedContent",
-						"maskFrame": null,
-						"layerFrame": {
-							"x": 0,
-							"y": 0,
-							"width": 375,
-							"height": 2491
-						},
-						"visible": true,
-						"metadata": {
-							"opacity": 1
-						},
-						"image": {
-							"path": "images/Layer-feedContent-muuxneuy.jpg",
-							"frame": {
-								"x": 0,
-								"y": 0,
-								"width": 375,
-								"height": 2491
-							}
-						},
-						"children": []
-					}
-				]
-			}
-		]
-	},
-	{
-		"objectId": "341B7D2B-C66F-4544-A6C3-B4C0B1ED49C2",
-		"kind": "artboard",
-		"name": "cardView",
-		"originalName": "cardView",
-		"maskFrame": null,
-		"layerFrame": {
-			"x": 1003,
-			"y": -512,
-			"width": 375,
-			"height": 2252
-		},
-		"visible": true,
-		"metadata": {},
-		"backgroundColor": "rgba(255, 255, 255, 1)",
-		"children": [
-			{
 				"objectId": "9694CE38-7D27-4141-AB16-98B94BBC32D3",
 				"kind": "group",
 				"name": "likedAnimation",
@@ -435,7 +344,7 @@ window.__imported__["news lite cards@2x/layers.json.js"] = [
 				"layerFrame": {
 					"x": 0,
 					"y": 0,
-					"width": 460,
+					"width": 397,
 					"height": 2234
 				},
 				"visible": true,
@@ -507,7 +416,7 @@ window.__imported__["news lite cards@2x/layers.json.js"] = [
 						"layerFrame": {
 							"x": 7,
 							"y": 62,
-							"width": 453,
+							"width": 387,
 							"height": 540
 						},
 						"visible": true,
@@ -605,7 +514,7 @@ window.__imported__["news lite cards@2x/layers.json.js"] = [
 								"layerFrame": {
 									"x": 7,
 									"y": 62,
-									"width": 453,
+									"width": 387,
 									"height": 540
 								},
 								"visible": true,
@@ -617,7 +526,7 @@ window.__imported__["news lite cards@2x/layers.json.js"] = [
 									"frame": {
 										"x": 7,
 										"y": 62,
-										"width": 453,
+										"width": 387,
 										"height": 540
 									}
 								},
@@ -634,7 +543,7 @@ window.__imported__["news lite cards@2x/layers.json.js"] = [
 						"layerFrame": {
 							"x": 7,
 							"y": 606,
-							"width": 453,
+							"width": 390,
 							"height": 540
 						},
 						"visible": true,
@@ -705,7 +614,7 @@ window.__imported__["news lite cards@2x/layers.json.js"] = [
 								"layerFrame": {
 									"x": 7,
 									"y": 606,
-									"width": 453,
+									"width": 390,
 									"height": 540
 								},
 								"visible": true,
@@ -717,7 +626,7 @@ window.__imported__["news lite cards@2x/layers.json.js"] = [
 									"frame": {
 										"x": 7,
 										"y": 606,
-										"width": 453,
+										"width": 390,
 										"height": 540
 									}
 								},
@@ -734,7 +643,7 @@ window.__imported__["news lite cards@2x/layers.json.js"] = [
 						"layerFrame": {
 							"x": 7,
 							"y": 1150,
-							"width": 453,
+							"width": 390,
 							"height": 535
 						},
 						"visible": true,
@@ -749,10 +658,10 @@ window.__imported__["news lite cards@2x/layers.json.js"] = [
 								"originalName": "like3*",
 								"maskFrame": null,
 								"layerFrame": {
-									"x": 27,
-									"y": 1628,
-									"width": 110,
-									"height": 35
+									"x": 65,
+									"y": 1638,
+									"width": 17,
+									"height": 15
 								},
 								"visible": true,
 								"metadata": {
@@ -761,10 +670,10 @@ window.__imported__["news lite cards@2x/layers.json.js"] = [
 								"image": {
 									"path": "images/Layer-like3-rtc0qzcy.png",
 									"frame": {
-										"x": 27,
-										"y": 1628,
-										"width": 110,
-										"height": 35
+										"x": 65,
+										"y": 1638,
+										"width": 17,
+										"height": 15
 									}
 								},
 								"children": []
@@ -776,10 +685,10 @@ window.__imported__["news lite cards@2x/layers.json.js"] = [
 								"originalName": "comment3*",
 								"maskFrame": null,
 								"layerFrame": {
-									"x": 130,
-									"y": 1627,
-									"width": 110,
-									"height": 35
+									"x": 177,
+									"y": 1636,
+									"width": 16,
+									"height": 18
 								},
 								"visible": true,
 								"metadata": {
@@ -788,10 +697,10 @@ window.__imported__["news lite cards@2x/layers.json.js"] = [
 								"image": {
 									"path": "images/Layer-comment3-oddcruy4.png",
 									"frame": {
-										"x": 130,
-										"y": 1627,
-										"width": 110,
-										"height": 35
+										"x": 177,
+										"y": 1636,
+										"width": 16,
+										"height": 18
 									}
 								},
 								"children": []
@@ -805,7 +714,7 @@ window.__imported__["news lite cards@2x/layers.json.js"] = [
 								"layerFrame": {
 									"x": 7,
 									"y": 1150,
-									"width": 453,
+									"width": 390,
 									"height": 535
 								},
 								"visible": true,
@@ -817,7 +726,7 @@ window.__imported__["news lite cards@2x/layers.json.js"] = [
 									"frame": {
 										"x": 7,
 										"y": 1150,
-										"width": 453,
+										"width": 390,
 										"height": 535
 									}
 								},
@@ -834,7 +743,7 @@ window.__imported__["news lite cards@2x/layers.json.js"] = [
 						"layerFrame": {
 							"x": 7,
 							"y": 1694,
-							"width": 453,
+							"width": 390,
 							"height": 540
 						},
 						"visible": true,
@@ -905,7 +814,7 @@ window.__imported__["news lite cards@2x/layers.json.js"] = [
 								"layerFrame": {
 									"x": 7,
 									"y": 1694,
-									"width": 453,
+									"width": 390,
 									"height": 540
 								},
 								"visible": true,
@@ -917,7 +826,7 @@ window.__imported__["news lite cards@2x/layers.json.js"] = [
 									"frame": {
 										"x": 7,
 										"y": 1694,
-										"width": 453,
+										"width": 390,
 										"height": 540
 									}
 								},
@@ -926,6 +835,386 @@ window.__imported__["news lite cards@2x/layers.json.js"] = [
 						]
 					}
 				]
+			},
+			{
+				"objectId": "099963C2-D088-41DC-8F4D-875ACFB7FFCE",
+				"kind": "group",
+				"name": "colorOverlay",
+				"originalName": "colorOverlay",
+				"maskFrame": null,
+				"layerFrame": {
+					"x": 0,
+					"y": 0,
+					"width": 375,
+					"height": 2382
+				},
+				"visible": false,
+				"metadata": {
+					"opacity": 1
+				},
+				"image": {
+					"path": "images/Layer-colorOverlay-mdk5otyz.png",
+					"frame": {
+						"x": 0,
+						"y": 0,
+						"width": 375,
+						"height": 2382
+					}
+				},
+				"children": []
+			},
+			{
+				"objectId": "DB831C39-E4A2-46E3-9774-AA1D485529ED",
+				"kind": "group",
+				"name": "feedNav",
+				"originalName": "feedNav*",
+				"maskFrame": null,
+				"layerFrame": {
+					"x": 0,
+					"y": 0,
+					"width": 375,
+					"height": 131
+				},
+				"visible": true,
+				"metadata": {
+					"opacity": 1
+				},
+				"image": {
+					"path": "images/Layer-feedNav-rei4mzfd.png",
+					"frame": {
+						"x": 0,
+						"y": 0,
+						"width": 375,
+						"height": 131
+					}
+				},
+				"children": []
+			},
+			{
+				"objectId": "B86F9088-74CF-4876-9A9A-9FA55AA88160",
+				"kind": "group",
+				"name": "feedScroll",
+				"originalName": "feedScroll",
+				"maskFrame": null,
+				"layerFrame": {
+					"x": 0,
+					"y": 0,
+					"width": 451,
+					"height": 1516
+				},
+				"visible": true,
+				"metadata": {
+					"opacity": 1
+				},
+				"children": [
+					{
+						"objectId": "B1D88F03-EC04-4EEA-B1B5-6182ED8C8E22",
+						"kind": "group",
+						"name": "feedContent",
+						"originalName": "feedContent",
+						"maskFrame": null,
+						"layerFrame": {
+							"x": 0,
+							"y": 0,
+							"width": 451,
+							"height": 1516
+						},
+						"visible": true,
+						"metadata": {
+							"opacity": 1
+						},
+						"image": {
+							"path": "images/Layer-feedContent-qjfeodhg.png",
+							"frame": {
+								"x": 0,
+								"y": 0,
+								"width": 451,
+								"height": 1516
+							}
+						},
+						"children": [
+							{
+								"objectId": "641BA67A-8DF7-44F5-9FEE-B314E11A209C",
+								"kind": "group",
+								"name": "articleItem",
+								"originalName": "articleItem*",
+								"maskFrame": null,
+								"layerFrame": {
+									"x": 15,
+									"y": 464,
+									"width": 345,
+									"height": 112
+								},
+								"visible": true,
+								"metadata": {
+									"opacity": 1
+								},
+								"image": {
+									"path": "images/Layer-articleItem-njqxqke2.png",
+									"frame": {
+										"x": 15,
+										"y": 464,
+										"width": 345,
+										"height": 112
+									}
+								},
+								"children": []
+							},
+							{
+								"objectId": "8054ADE9-BA7E-47E7-8448-7EBB6D6202E5",
+								"kind": "group",
+								"name": "videoItem",
+								"originalName": "videoItem*",
+								"maskFrame": null,
+								"layerFrame": {
+									"x": 15,
+									"y": 592,
+									"width": 345,
+									"height": 272
+								},
+								"visible": true,
+								"metadata": {
+									"opacity": 1
+								},
+								"image": {
+									"path": "images/Layer-videoItem-oda1nefe.png",
+									"frame": {
+										"x": 15,
+										"y": 592,
+										"width": 345,
+										"height": 272
+									}
+								},
+								"children": []
+							},
+							{
+								"objectId": "A294999A-8540-448B-B50F-57812C68DCE7",
+								"kind": "group",
+								"name": "shortVideoItem",
+								"originalName": "shortVideoItem*",
+								"maskFrame": null,
+								"layerFrame": {
+									"x": 12,
+									"y": 1061,
+									"width": 351,
+									"height": 263
+								},
+								"visible": true,
+								"metadata": {
+									"opacity": 1
+								},
+								"image": {
+									"path": "images/Layer-shortVideoItem-qti5ndk5.png",
+									"frame": {
+										"x": 12,
+										"y": 1061,
+										"width": 351,
+										"height": 263
+									}
+								},
+								"children": []
+							},
+							{
+								"objectId": "7E0F483D-6B16-42BF-9275-C993BF59DFD7",
+								"kind": "group",
+								"name": "otherContent",
+								"originalName": "otherContent*",
+								"maskFrame": null,
+								"layerFrame": {
+									"x": 14,
+									"y": 149,
+									"width": 437,
+									"height": 1354
+								},
+								"visible": true,
+								"metadata": {
+									"opacity": 1
+								},
+								"image": {
+									"path": "images/Layer-otherContent-n0uwrjq4.png",
+									"frame": {
+										"x": 14,
+										"y": 149,
+										"width": 437,
+										"height": 1354
+									}
+								},
+								"children": []
+							}
+						]
+					}
+				]
+			}
+		]
+	},
+	{
+		"objectId": "0B900D87-23FA-4E48-8BFF-37FB1B48C666",
+		"kind": "artboard",
+		"name": "shortVideo",
+		"originalName": "shortVideo",
+		"maskFrame": null,
+		"layerFrame": {
+			"x": 2862,
+			"y": -512,
+			"width": 375,
+			"height": 667
+		},
+		"visible": true,
+		"metadata": {},
+		"backgroundColor": "rgba(9.540816326530612, 9.540816326530612, 9.540816326530612, 1)",
+		"children": [
+			{
+				"objectId": "E43197C0-1CDE-4865-ADF0-C245CE8B2416",
+				"kind": "group",
+				"name": "contentNavTransparent",
+				"originalName": "contentNavTransparent*",
+				"maskFrame": null,
+				"layerFrame": {
+					"x": 0,
+					"y": 0,
+					"width": 375,
+					"height": 64
+				},
+				"visible": true,
+				"metadata": {
+					"opacity": 1
+				},
+				"image": {
+					"path": "images/Layer-contentNavTransparent-rtqzmtk3.png",
+					"frame": {
+						"x": 0,
+						"y": 0,
+						"width": 375,
+						"height": 64
+					}
+				},
+				"children": []
+			},
+			{
+				"objectId": "D7B3A0F5-59E0-4FEA-AD89-2914294A6BA1",
+				"kind": "group",
+				"name": "shortVideoContent",
+				"originalName": "shortVideoContent*",
+				"maskFrame": null,
+				"layerFrame": {
+					"x": 0,
+					"y": 0,
+					"width": 375,
+					"height": 668
+				},
+				"visible": true,
+				"metadata": {
+					"opacity": 1
+				},
+				"image": {
+					"path": "images/Layer-shortVideoContent-rddcm0ew.png",
+					"frame": {
+						"x": 0,
+						"y": 0,
+						"width": 375,
+						"height": 668
+					}
+				},
+				"children": []
+			}
+		]
+	},
+	{
+		"objectId": "755BD569-3A6F-4DF7-917D-FD7879D49B0B",
+		"kind": "artboard",
+		"name": "video",
+		"originalName": "video",
+		"maskFrame": null,
+		"layerFrame": {
+			"x": 2428,
+			"y": -512,
+			"width": 375,
+			"height": 667
+		},
+		"visible": true,
+		"metadata": {},
+		"backgroundColor": "rgba(255, 255, 255, 1)",
+		"children": [
+			{
+				"objectId": "6AD5C306-9F6D-41E4-94EC-169BFD3124B7",
+				"kind": "group",
+				"name": "contentNavTransparent1",
+				"originalName": "contentNavTransparent*",
+				"maskFrame": null,
+				"layerFrame": {
+					"x": 0,
+					"y": 0,
+					"width": 375,
+					"height": 64
+				},
+				"visible": true,
+				"metadata": {
+					"opacity": 1
+				},
+				"image": {
+					"path": "images/Layer-contentNavTransparent-nkfenumz.png",
+					"frame": {
+						"x": 0,
+						"y": 0,
+						"width": 375,
+						"height": 64
+					}
+				},
+				"children": []
+			},
+			{
+				"objectId": "E482F769-058F-44A6-B3E4-8D8E8E978A1D",
+				"kind": "group",
+				"name": "videoContent",
+				"originalName": "videoContent*",
+				"maskFrame": null,
+				"layerFrame": {
+					"x": 0,
+					"y": 0,
+					"width": 375,
+					"height": 623
+				},
+				"visible": true,
+				"metadata": {
+					"opacity": 1
+				},
+				"image": {
+					"path": "images/Layer-videoContent-rtq4mky3.png",
+					"frame": {
+						"x": 0,
+						"y": 0,
+						"width": 375,
+						"height": 623
+					}
+				},
+				"children": []
+			},
+			{
+				"objectId": "CE3BB90F-DC47-4868-9AF1-D547DF9C5894",
+				"kind": "group",
+				"name": "contentTools",
+				"originalName": "contentTools*",
+				"maskFrame": null,
+				"layerFrame": {
+					"x": 0,
+					"y": 615,
+					"width": 377,
+					"height": 51
+				},
+				"visible": true,
+				"metadata": {
+					"opacity": 1
+				},
+				"image": {
+					"path": "images/Layer-contentTools-q0uzqki5.jpg",
+					"frame": {
+						"x": 0,
+						"y": 615,
+						"width": 377,
+						"height": 51
+					}
+				},
+				"children": []
 			}
 		]
 	}
