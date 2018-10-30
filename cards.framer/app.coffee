@@ -30,18 +30,19 @@ contents.push(s.content4)
 
 #initialize
 cardScroll = new PageComponent
-	parent: s.cardOverlay
 	x: 5
 	y: 70
 	width: 500
 	height: 548
 	scrollHorizontal: false
 	clip: false
+	superLayer: s.cardOverlay
 cardScroll.placeBehind(s.cardNavBar)
 for card in cards
 	cardScroll.addPage(card, "bottom")
 
-s.cardOverlay.visible =	 s.colorOverlay.visible = false
+###
+s.cardOverlay.visible =	 
 s.colorOverlay.opacity = 0
 s.cardNavBar.opacity = 0
 cardScroll.states.hidden = 
@@ -61,8 +62,7 @@ s.feedContent.onClick ->
 		opacity: 1
 	s.cardNavBar.animate
 		opacity: 1
-
-s.cardClose.onClick ->
+s.cardNavBar.onClick ->
 	cardScroll.animate "hidden"
 	s.feedContent.animate
 		blur:0
@@ -70,10 +70,30 @@ s.cardClose.onClick ->
 		opacity: 0
 	s.cardNavBar.animate
 		opacity: 0
-
 cardScroll.on Events.StateSwitchEnd, (from, to) ->
 	if to == "hidden"
 		s.cardOverlay.visible =	 s.colorOverlay.visible = false
+###
+
+cardTransition = (nav, layerA, layerB, overlay) ->
+	transition =
+		layerA:
+			show:
+				blur: 0
+			hide:
+				blur: 1
+		layerB:
+			show:
+				scale: 1
+				opacity: 1
+			hide:
+				scale: 0.8
+				opacity: 0
+		overlay:
+			show:
+				opacity: 0.6
+			hide:
+				opacity: 0
 
 
 # card interactions
@@ -139,10 +159,15 @@ commentScroll.scrollHorizontal = false
 # page flows
 flow = new FlowComponent
 flow.showNext(s.feed, scroll:false)
+s.feedContent.onClick ->
+	flow.transition(cardScroll, cardTransition)
+	flow.header = s.cardNavBar
+
+
 
 for content in contents
 	content.onClick ->
-		flow.showNext(s.article, scroll:false)
+		flow.showOverlayCenter(s.article, scroll:false)
 
 s.articleBack.onClick ->
 	flow.showPrevious()
