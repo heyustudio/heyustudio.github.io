@@ -40,7 +40,16 @@ articleScroll3 = ScrollComponent.wrap(s.articleScroll3)
 articleScroll3.scrollHorizontal = false
 commentScroll = ScrollComponent.wrap(s.commentScroll)
 commentScroll.scrollHorizontal = false
-
+videoView = new Layer
+	width: Screen.width
+	height: Screen.height
+	backgroundColor: "#FFFFF"
+shortVideoView = new Layer
+	width: Screen.width
+	height: Screen.height
+	backgroundColor: "#000000"
+s.videoContent.parent = videoView
+s.shortVideoContent.parent = shortVideoView
 pages = new PageComponent
 	width: Screen.width
 	height: Screen.height
@@ -50,9 +59,9 @@ pages = new PageComponent
 pages.placeBehind(s.contentTools)
 pages.addPage(articleScroll, "bottom")
 pages.addPage(articleScroll2, "bottom")
-pages.addPage(s.video, "bottom")
+pages.addPage(videoView, "bottom")
 pages.addPage(articleScroll3, "bottom") 
-pages.addPage(s.shortVideo, "bottom")
+pages.addPage(shortVideoView, "bottom")
 
 s.nextPrompt.states.hidden =
 	y: 150
@@ -92,14 +101,16 @@ articleScroll3.onScroll ->
 
 # pageTransition
 pages.onMove ->
-	if pages.currentPage == s.video
+	if pages.currentPage == videoView
 		s.contentNavSolid.visible = false
 		s.actionsSolid.visible = true
 		s.nextPrompt.stateSwitch("hidden")
-	else if pages.currentPage == s.shortVideo
+		pages.scrollVertical = true
+	else if pages.currentPage == shortVideoView
 		s.contentNavSolid.visible = false
 		s.actionsSolid.visible = false
 		s.nextPrompt.stateSwitch("hidden")
+		pages.scrollVertical = true
 	else
 		s.contentNavSolid.visible = true
 		s.actionsSolid.visible = true
@@ -139,12 +150,12 @@ s.articleItem3.onClick ->
 	s.actionsSolid.visible = true
 s.videoItem.onClick ->
 	mainFlow.showNext(s.content)
-	pages.snapToPage(s.video,false)
+	pages.snapToPage(videoView,false)
 	s.contentNavSolid.visible = false
 	s.actionsSolid.visible = true
 s.shortVideoItem.onClick ->
 	mainFlow.showNext(s.content)
-	pages.snapToPage(s.shortVideo,false)
+	pages.snapToPage(shortVideoView,false)
 	s.contentNavSolid.visible = false
 	s.actionsSolid.visible = false
 s.contentNav.onClick ->
