@@ -104,9 +104,24 @@ pages.onMove ->
 		s.contentNavSolid.visible = true
 		s.actionsSolid.visible = true
 
+# crossfade
+crossfade = () ->
+	transition = 
+		layerB:
+			show:
+				x: 0
+				opacity: 1
+			hide:
+				x: 0
+				opacity: 0
+
 # main flow
 mainFlow = new FlowComponent
-mainFlow.showNext(s.feed, scroll:false)
+mainFlow.showNext(s.home, scroll:false)
+s.home.onClick ->
+	mainFlow.showOverlayCenter(s.splash)
+	Utils.delay 1, ->
+		mainFlow.transition(s.feed, crossfade, scroll:false)
 s.articleItem1.onClick ->
 	mainFlow.showNext(s.content)
 	pages.snapToPage(articleScroll,false)

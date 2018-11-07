@@ -1606,5 +1606,31 @@ window.__imported__["news lite complete up@2x/layers.json.js"] = [
 				]
 			}
 		]
+	},
+	{
+		"objectId": "9C884656-84CE-4F04-94B5-399D90A219B2",
+		"kind": "artboard",
+		"name": "home",
+		"originalName": "home",
+		"maskFrame": null,
+		"layerFrame": {
+			"x": -762,
+			"y": -512,
+			"width": 375,
+			"height": 812
+		},
+		"visible": true,
+		"metadata": {},
+		"backgroundColor": "rgba(255, 255, 255, 1)",
+		"image": {
+			"path": "images/Layer-home-oum4odq2.jpg",
+			"frame": {
+				"x": -762,
+				"y": -512,
+				"width": 375,
+				"height": 812
+			}
+		},
+		"children": []
 	}
 ]
