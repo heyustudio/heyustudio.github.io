@@ -153,11 +153,13 @@ s.videoItem.onClick ->
 	pages.snapToPage(videoView,false)
 	s.contentNavSolid.visible = false
 	s.actionsSolid.visible = true
+	pages.scrollVertical = true
 s.shortVideoItem.onClick ->
 	mainFlow.showNext(s.content)
 	pages.snapToPage(shortVideoView,false)
 	s.contentNavSolid.visible = false
 	s.actionsSolid.visible = false
+	pages.scrollVertical = true
 s.contentNav.onClick ->
 	mainFlow.showPrevious()
 s.icon_tl_touxiang.onClick ->
